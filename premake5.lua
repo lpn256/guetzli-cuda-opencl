@@ -1,7 +1,7 @@
 workspace "guetzli"
   configurations { "Release", "Debug" }
   language "C++"
-  flags { "C++11" }
+  cppdialect "C++11"
   includedirs { ".", "third_party/butteraugli", "clguetzli" }
   libdirs {}
 
